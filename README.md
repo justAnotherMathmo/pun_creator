@@ -7,6 +7,7 @@ Sometimes the arpabet link and text file values might be slightly different, nam
 
 
 # Extensions
+Have input be words rather than sounds
 Precompute pronunciation table.
 Score puns by associating to each word a score (say, log(1+(#occurrences in some text))) and give their ranking, to filter out obscure words. Perhaps also penalize for being too long/having a contraction/etc. Do this once and then refer to this database instead of the current one.
 Look at similar sounds and generate puns based on those as well (if scoring is implementing, penalize the score).
